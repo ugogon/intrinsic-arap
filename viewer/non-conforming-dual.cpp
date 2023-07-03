@@ -59,7 +59,7 @@ void transformed_dual(const Eigen::MatrixXd& V, const Eigen::MatrixXd& U, const 
   Fout.resize(F.rows()*6,3);
   local_fits(U, data);
   const size_t faces = F.rows();
-  for (size_t n; n < faces; n++){
+  for (size_t n=0; n < faces; n++){
     const size_t i = F(n,0);
     const size_t j = F(n,1);
     const size_t k = F(n,2);
