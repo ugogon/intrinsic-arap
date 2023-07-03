@@ -7,7 +7,7 @@ Journal: Computer Graphic Forum 2023
 
 ## Get the code
 
-Clone the project
+Clone the project recursively:
 
 ```
 git clone --recursive https://github.com/ugogon/intrinsic-arap.git
